@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">A_lesson1</string>
+    <string name="some_text">SOME TEXT</string>
+    <string name="t">Tыкни</string>
+    <string name="text_on1">Включено</string>
+    <string name="text_off1">Выключено</string>
+    <string name="next">Next</string>
+    <string name="button">Button</string>
+    <string name="text1">Подёргай</string>
 </resources>
