@@ -23,13 +23,12 @@
             android:layout_height="200dp"
             android:background="@color/light_blue"
             android:fontFamily="sans-serif-black"
-            android:text="Привет! Позже здесь будет полезный текст"
+            android:text="@string/str_hello"
             android:textColor="@color/blue"
             android:textSize="30sp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="HardcodedText" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/editText"
@@ -42,7 +41,8 @@
             android:textColorHint="@color/black"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="" />
 
         <Switch
             android:id="@+id/switch1"
@@ -52,7 +52,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml" />
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <CheckBox
             android:id="@+id/checkBox2"

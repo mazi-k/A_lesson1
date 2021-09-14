@@ -7,4 +7,5 @@
     <string name="next">Next</string>
     <string name="button">Button</string>
     <string name="text1">Подёргай</string>
+    <string name="str_hello">Привет! Позже здесь будет полезный текст</string>
 </resources>
